@@ -1,0 +1,47 @@
+@import url('');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #0f1117;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.title{
+    color: lightsalmon;
+    font-size: 25px;
+}
+
+.form{
+    background-color: lightskyblue;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.form:active{
+    transform: scale(0.97);
+}
+
+.form:hover{
+    transform: scale(1.05);
+    transition-duration: 0.08s;
+}
