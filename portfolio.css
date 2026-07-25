@@ -12,3 +12,22 @@ body{
     color: white;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.main{
+    font-size: 30px;
+    color: lightskyblue;
+}
+
+.secondary{
+    font-size: 20px;
+    color: red;
+}
+
