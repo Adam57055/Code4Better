@@ -31,3 +31,22 @@ body{
     color: red;
 }
 
+.portfolio{
+    background-color: lightpink;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.portfolio:active{
+    transform: scale(0.97);
+}
+
+.portfolio:hover{
+    transform: scale(1.05);
+    transition-duration: 0.08s;
+}
